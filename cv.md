@@ -42,3 +42,7 @@ Faculty of Computer Engineering, Department of Information Technology
 **Date of birth:** 04.08.1990
 
 **City:** Kyiv
+
+
+## Examples of my work
+[https://armind04.github.io/aod/](https://armind04.github.io/aod/)
