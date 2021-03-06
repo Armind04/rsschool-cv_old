@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wrapper {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-color: #d2d3d5;
+  color: #424244;
+  background-image: linear-gradient(0deg, #d2d3d5 0%, #b8b9bb 100%);
+}
+
+.container {
+  width: 1180px;
+  padding: 0;
+  margin: 10px auto 5px auto;
+  background: #fff;
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.ibg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #424244;
+  border-bottom: 1px dashed transparent;
+}
+a:hover {
+  border-color: #424244;
+  transition: all 0.3s;
+}
+
+.icon__wrapper {
+  width: 30px;
+  height: 30px;
+  background-color: #43a3ef;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.icon__item {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background: #e6e6e6;
+  display: flex;
+  padding: 40px 60px 25px 60px;
+  margin-bottom: 30px;
+}
+.header__img {
+  display: flex;
+  width: 35%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header__img img {
+  width: 55%;
+  border-radius: 50%;
+}
+.header__body {
+  width: 65%;
+  padding: 20px 0 0 20px;
+}
+.header__title {
+  color: #424244;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+.header__subtitle {
+  color: #424244;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 60px;
+}
+.header__links {
+  display: flex;
+}
+.header__link {
+  margin-right: 50px;
+}
+.header__link .icon__wrapper {
+  width: 27px;
+  height: 27px;
+}
+.header__link i {
+  font-size: 22px;
+  color: #fff;
+}
+.header__link a {
+  color: #424244;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.article {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  background: #e6e6e6;
+  padding: 25px 30px 0 60px;
+}
+.article__block {
+  margin-bottom: 80px;
+}
+.article__title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #43a3ef;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.article__hobbies i {
+  color: #fff;
+  font-size: 20px;
+}
+.article__hobbies .icon__wrapper {
+  margin: 0 35px 30px 0;
+}
+
+.profile__text {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.contact__item {
+  margin-bottom: 20px;
+}
+.contact__item i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.main {
+  padding: 25px 50px;
+}
+.main p {
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.main__title {
+  color: #43a3ef;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main__title__wrapper {
+  margin-bottom: 20px;
+}
+.main__title__wrapper i {
+  color: #fff;
+  font-size: 20px;
+}
+.main__description {
+  margin-bottom: 30px;
+}
+.main__description--bld {
+  font-weight: bold;
+}
+.main__description--itc {
+  font-style: italic;
+}
+
+.icon__wrapper--big {
+  width: 33px;
+  height: 33px;
+}
+
+.footer {
+  display: flex;
+  padding: 10px 60px;
+  justify-content: space-between;
+  background: #e6e6e6;
+  align-items: center;
+}
+.footer .header__subtitle {
+  margin-bottom: 0px;
+}
+.footer .sml__icon {
+  font-size: 14px;
+}
+.footer i {
+  color: #fff;
+}
+
+.img__wrapper {
+  width: 200px;
+}
+.img__wrapper img {
+  width: 100%;
+}
