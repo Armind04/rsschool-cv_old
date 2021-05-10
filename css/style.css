@@ -130,6 +130,9 @@ a:hover {
   display: flex;
   align-items: center;
 }
+.icon__item img:first-child {
+  margin-right: 15px;
+}
 
 .header {
   background: #e6e6e6;
